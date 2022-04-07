@@ -1,4 +1,6 @@
-Ex-02_DS_Outlier
+Ex-02_DS_Outlier:
+
+
 AIM:
 To detect and remove outliers from the given data and save the final data.
 
@@ -28,6 +30,8 @@ STEP 7:
 Finally save the updated data set and display the data.
 
 CODE:
+
+```
 import pandas as pd
 df=pd.read_csv("weight.csv")
 df
@@ -61,6 +65,7 @@ df_new
 
 print("Finalized Data set is:")
 df_new
+```
 
 # OUTPUT :  
 
